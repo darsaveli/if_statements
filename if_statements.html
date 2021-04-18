@@ -13,19 +13,34 @@
 <h1>If Statemetns</h1>
 
 <body> 
-    <img id="img1" src="arrays/images/1.png">
-    <img id="img2" src="arrays/images/2.png">
+    <p>What is the magic word?</p>
+    <p><input type="text" id="magicWord"></p>
+    <p><button id="checkMagicWord"> Enter</button></p>
+
+    <img id="img1" src="images/if1.png">
+    <img id="img2" src="images/if2.png">
 
 
     <script type="text/javascript">
-        
-
-
+            document.getElementById("checkMagicWord").onclick = function() {
+                
+                var magicWordEntered = document.getElementById("magicWord").value;
+                
+                var magicWord = "abracadabra";
+                
+                if (magicWordEntered == magicWord) {
+                    
+                    alert("You got it!");
+                    
+                } else {
+                    
+                    alert("Nope, try again!");
+                    
+                }
+                
+            }
         
     </script>
-
-
-
 
 
 </body>
