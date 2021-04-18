@@ -1,0 +1,38 @@
+h1 {
+color:#4480C5;
+text-align:center;
+font-family:'Courier New', monospace;
+background-color:#171B22;
+width: 100%;
+height: 80px;
+padding: 0;
+margin: 0;
+position: relative;
+padding-top: 20px;
+padding-bottom: -50px;
+}
+          
+body {
+background-color:#090D11;
+margin: 0;
+padding: 0;
+}
+
+p {
+color:#C9D1D9 ;
+margin: 0;
+padding: 0;
+float: left;
+position: relative;
+top: 30px;
+left: 10px;
+}
+
+img {
+margin: 0;
+padding: 30px;
+float: left;
+position: relative;
+top: 30px;
+left: 30px;
+}
